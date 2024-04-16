@@ -1,2 +1,2 @@
-# Mechain-Learning---Cu
-一个记录机器学习的仓库，里面有学习记录与代码实现，方便日后进行查阅。
+# MechainLearning-Cu
+A repository for documenting machine learning learned during undergraduate studies.
