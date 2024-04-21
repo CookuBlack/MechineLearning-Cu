@@ -61,7 +61,7 @@ plt.plot(xpoints, ypoints, `o`)
 plt.show()
 ```
 
-![image-20240421173503152](C:\Users\CooKu\AppData\Roaming\Typora\typora-user-images\image-20240421173503152.png)
+![image-20240421173503152](./Code/access/TyAccess/image-20240421173503152.png)
 
 ### 绘制折线图
 
@@ -73,7 +73,7 @@ plt.plot(xpoints, ypoints)
 plt.show()
 ```
 
-![image-20240421173721505](C:\Users\CooKu\AppData\Roaming\Typora\typora-user-images\image-20240421173721505.png)
+![image-20240421173721505](./Code/access/TyAccess/image-20240421173721505.png)
 
 ### 绘制正弦余弦函数
 
@@ -85,7 +85,7 @@ plt.plot(x,y,x,z)
 plt.show()
 ```
 
-![image-20240421173823383](C:\Users\CooKu\AppData\Roaming\Typora\typora-user-images\image-20240421173823383.png)
+![image-20240421173823383](./Code/access/TyAccess/image-20240421173823383.png)
 
 ## 绘图标记
 
@@ -144,7 +144,7 @@ plt.plot(ypoints, marker = `*`)
 plt.show()
 ```
 
-![image-20240421174539311](C:\Users\CooKu\AppData\Roaming\Typora\typora-user-images\image-20240421174539311.png)
+![image-20240421174539311](./Code/access/TyAccess/image-20240421174539311.png)
 
 ### `fmt `参数
 
@@ -161,7 +161,7 @@ plt.plot(ypoints, `o:r`)
 plt.show()
 ```
 
-![image-20240421174718117](C:\Users\CooKu\AppData\Roaming\Typora\typora-user-images\image-20240421174718117.png)
+![image-20240421174718117](./Code/access/TyAccess/image-20240421174718117.png)
 
 #### 线类型：
 
@@ -202,7 +202,7 @@ plt.plot(ypoints, marker = `o`, ms = 20)
 plt.show()
 ```
 
-![image-20240421174951242](C:\Users\CooKu\AppData\Roaming\Typora\typora-user-images\image-20240421174951242.png)
+![image-20240421174951242](./Code/access/TyAccess/image-20240421174951242.png)
 
 ```python
 # 自定义标记内部与边框的颜色：
@@ -211,7 +211,7 @@ plt.plot(ypoints, marker = `o`, ms = 20, mec = `#4CAF50`, mfc = `#4CAF50`)
 plt.show()
 ```
 
-![image-20240421175105287](C:\Users\CooKu\AppData\Roaming\Typora\typora-user-images\image-20240421175105287.png)
+![image-20240421175105287](./Code/access/TyAccess/image-20240421175105287.png)
 
 ## 绘图线
 
@@ -236,7 +236,7 @@ plt.plot(ypoints, linestyle = `dotted`)
 plt.show()
 ```
 
-![image-20240421175313520](C:\Users\CooKu\AppData\Roaming\Typora\typora-user-images\image-20240421175313520.png)
+![image-20240421175313520](./Code/access/TyAccess/image-20240421175313520.png)
 
 ### 线的颜色
 
@@ -264,7 +264,7 @@ plt.plot(ypoints, color = 'r')
 plt.show()
 ```
 
-![image-20240421175442265](C:\Users\CooKu\AppData\Roaming\Typora\typora-user-images\image-20240421175442265.png)
+![image-20240421175442265](./Code/access/TyAccess/image-20240421175442265.png)
 
 ### 线的宽度
 
@@ -279,7 +279,7 @@ plt.plot(ypoints, linewidth = '12.5')
 plt.show()
 ```
 
-![image-20240421175552285](C:\Users\CooKu\AppData\Roaming\Typora\typora-user-images\image-20240421175552285.png)
+![image-20240421175552285](./Code/access/TyAccess/image-20240421175552285.png)
 
 ## 轴标签和标题
 
@@ -300,7 +300,7 @@ plt.ylabel("y - label")
 plt.show()
 ```
 
-![image-20240421175753926](C:\Users\CooKu\AppData\Roaming\Typora\typora-user-images\image-20240421175753926.png)
+![image-20240421175753926](./Code/access/TyAccess/image-20240421175753926.png)
 
 ### 标题
 
@@ -320,7 +320,7 @@ plt.ylabel("y - label")
 plt.show()
 ```
 
-![image-20240421175854868](C:\Users\CooKu\AppData\Roaming\Typora\typora-user-images\image-20240421175854868.png)
+![image-20240421175854868](./Code/access/TyAccess/image-20240421175854868.png)
 
 ## 网格线
 
@@ -355,7 +355,7 @@ plt.grid()
 plt.show()
 ```
 
-![image-20240421180250532](C:\Users\CooKu\AppData\Roaming\Typora\typora-user-images\image-20240421180250532.png)
+![image-20240421180250532](./Code/access/TyAccess/image-20240421180250532.png)
 
 添加一个简单的网格线，并设置网格线的样式，格式如下：
 
@@ -385,7 +385,7 @@ plt.grid(color = 'r', linestyle = '--', linewidth = 0.5)
 plt.show()
 ```
 
-![image-20240421180425198](C:\Users\CooKu\AppData\Roaming\Typora\typora-user-images\image-20240421180425198.png)
+![image-20240421180425198](./Code/access/TyAccess/image-20240421180425198.png)
 
 ## 绘制多图
 
@@ -448,13 +448,13 @@ fig, ax = plt.subplots(num=10, clear=True)
 plt.show()
 ```
 
-![image-20240421181355935](C:\Users\CooKu\AppData\Roaming\Typora\typora-user-images\image-20240421181355935.png)
+![image-20240421181355935](./Code/access/TyAccess/image-20240421181355935.png)
 
-![image-20240421181401822](C:\Users\CooKu\AppData\Roaming\Typora\typora-user-images\image-20240421181401822.png)
+![image-20240421181401822](./Code/access/TyAccess/image-20240421181401822.png)
 
-![image-20240421181407981](C:\Users\CooKu\AppData\Roaming\Typora\typora-user-images\image-20240421181407981.png)
+![image-20240421181407981](./Code/access/TyAccess/image-20240421181407981.png)
 
-![image-20240421181417577](C:\Users\CooKu\AppData\Roaming\Typora\typora-user-images\image-20240421181417577.png)
+![image-20240421181417577](./Code/access/TyAccess/image-20240421181417577.png)
 
 ## 散点图
 
@@ -501,7 +501,7 @@ plt.title("RUNOOB Scatter Test") # 设置标题
 plt.show()
 ```
 
-![image-20240421181954142](C:\Users\CooKu\AppData\Roaming\Typora\typora-user-images\image-20240421181954142.png)
+![image-20240421181954142](./Code/access/TyAccess/image-20240421181954142.png)
 
 ### 色条参数
 
@@ -517,7 +517,7 @@ plt.colorbar()
 plt.show()
 ```
 
-![image-20240421182224838](C:\Users\CooKu\AppData\Roaming\Typora\typora-user-images\image-20240421182224838.png)
+![image-20240421182224838](./Code/access/TyAccess/image-20240421182224838.png)
 
 ```python
 x = np.array([5,7,8,7,2,17,2,9,4,11,12,9,6])
@@ -529,7 +529,7 @@ plt.colorbar()
 plt.show()
 ```
 
-![image-20240421182247045](C:\Users\CooKu\AppData\Roaming\Typora\typora-user-images\image-20240421182247045.png)
+![image-20240421182247045](./Code/access/TyAccess/image-20240421182247045.png)
 
 ## 柱形图
 
@@ -560,7 +560,7 @@ plt.bar(x, y,  color = ["#4CAF50","red","hotpink","#556B2F"])
 plt.show()
 ```
 
-![image-20240421182547354](C:\Users\CooKu\AppData\Roaming\Typora\typora-user-images\image-20240421182547354.png)
+![image-20240421182547354](./Code/access/TyAccess/image-20240421182547354.png)
 
 ```python
 x = np.array(["Runoob-1", "Runoob-2", "Runoob-3", "C-RUNOOB"])
@@ -570,7 +570,7 @@ plt.bar(x, y, width = 0.1)
 plt.show()
 ```
 
-![image-20240421182553776](C:\Users\CooKu\AppData\Roaming\Typora\typora-user-images\image-20240421182553776.png)
+![image-20240421182553776](./Code/access/TyAccess/image-20240421182553776.png)
 
 ## 饼图
 
@@ -621,7 +621,7 @@ plt.title("RUNOOB Pie Test") # 设置标题
 plt.show()
 ```
 
-![image-20240421183029713](C:\Users\CooKu\AppData\Roaming\Typora\typora-user-images\image-20240421183029713.png)
+![image-20240421183029713](./Code/access/TyAccess/image-20240421183029713.png)
 
 
 
@@ -653,7 +653,7 @@ plt.show()
 
 
 
-![image-20240421183215933](C:\Users\CooKu\AppData\Roaming\Typora\typora-user-images\image-20240421183215933.png)
+![image-20240421183215933](./Code/access/TyAccess/image-20240421183215933.png)
 
 ```python
 y = np.array([35, 25, 25, 15])
@@ -668,7 +668,7 @@ plt.title("RUNOOB Pie Test")
 plt.show()
 ```
 
-![image-20240421183224786](C:\Users\CooKu\AppData\Roaming\Typora\typora-user-images\image-20240421183224786.png)
+![image-20240421183224786](./Code/access/TyAccess/image-20240421183224786.png)
 
 ## 直方图
 
@@ -722,7 +722,7 @@ plt.legend()
 plt.show()
 ```
 
-![image-20240421183352994](C:\Users\CooKu\AppData\Roaming\Typora\typora-user-images\image-20240421183352994.png)
+![image-20240421183352994](./Code/access/TyAccess/image-20240421183352994.png)
 
 ## 显示图像
 
@@ -763,7 +763,7 @@ plt.imshow(img, cmap='gray')
 plt.show()
 ```
 
-![image-20240421183657976](C:\Users\CooKu\AppData\Roaming\Typora\typora-user-images\image-20240421183657976.png)
+![image-20240421183657976](./Code/access/TyAccess/image-20240421183657976.png)
 
 ```python
 # 生成一个二维随机数组
@@ -777,7 +777,7 @@ plt.colorbar()
 plt.show()
 ```
 
-![image-20240421183652504](C:\Users\CooKu\AppData\Roaming\Typora\typora-user-images\image-20240421183652504.png)
+![image-20240421183652504](./Code/access/TyAccess/image-20240421183652504.png)
 
 ## 保存图像
 
@@ -806,7 +806,7 @@ plt.imshow(img_data)
 plt.imsave('./access/runoob-test.png', img_data)
 ```
 
-![image-20240421183847853](C:\Users\CooKu\AppData\Roaming\Typora\typora-user-images\image-20240421183847853.png)
+![image-20240421183847853](./Code/access/TyAccess/image-20240421183847853.png)
 
 ## 读取图像
 
@@ -847,7 +847,7 @@ for i in range(1,5):
 plt.show()
 ```
 
-​	![image-20240421184440044](C:\Users\CooKu\AppData\Roaming\Typora\typora-user-images\image-20240421184440044.png)
+​	![image-20240421184440044](./Code/access/TyAccess/image-20240421184440044.png)
 
 ### 裁剪图像
 
@@ -863,7 +863,7 @@ plt.axis('off')
 plt.show()
 ```
 
-![image-20240421184715887](C:\Users\CooKu\AppData\Roaming\Typora\typora-user-images\image-20240421184715887.png)
+![image-20240421184715887](./Code/access/TyAccess/image-20240421184715887.png)
 
 ### RGB值的修改
 
@@ -883,4 +883,4 @@ plt.axis('off')
 plt.show()
 ```
 
-![image-20240421185005372](C:\Users\CooKu\AppData\Roaming\Typora\typora-user-images\image-20240421185005372.png)
+![image-20240421185005372](./Code/access/TyAccess/image-20240421185005372.png)
