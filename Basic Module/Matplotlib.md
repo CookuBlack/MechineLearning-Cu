@@ -26,7 +26,7 @@ plt.plot(xpoints, ypoints)
 plt.show()
 ```
 
-![image-20240421173021233](.\Code\access\TyAccess\image-20240421173021233.png)
+![image-20240421173021233](./Code/access/TyAccess/image-20240421173021233.png)
 
 **plot()** 用于画图它可以绘制点和线，语法格式如下：
 
